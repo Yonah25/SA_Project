@@ -15,7 +15,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $msg = "Wrong username or password";
 }
 ?>
-<h2>Login</h2>
+<h2>Student Portal</h2>
 <form method="POST">
   <input name="username" placeholder="Username" required><br><br>
   <input type="password" name="password" placeholder="Password" required><br><br>
